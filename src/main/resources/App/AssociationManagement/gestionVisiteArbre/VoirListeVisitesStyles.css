@@ -1,0 +1,84 @@
+/* 🌿 Fond général */
+Pane {
+    -fx-background-color: #f4f1e9; /* Fond beige clair */
+}
+
+/* ✅ Barre de menu */
+MenuBar {
+    -fx-background-color: #6b4f2f; /* Marron foncé */
+}
+Menu {
+    -fx-text-fill: white;
+}
+MenuItem {
+    -fx-background-color: #8b6f47;
+    -fx-text-fill: white;
+}
+MenuItem:hover {
+    -fx-background-color: #a07d52;
+}
+
+/* 🟢 Boutons */
+Button {
+    -fx-background-color: #8b6f47; /* Marron clair */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+Button:hover {
+    -fx-background-color: #6b4f2f; /* Marron foncé */
+}
+
+/* 🏡 Liste des visites */
+ListView {
+    -fx-background-color: white;
+    -fx-border-color: #8b6f47;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+}
+
+/* 🔍 Zone de recherche */
+TextField {
+    -fx-border-color: #6b4f2f;
+    -fx-border-width: 2px;
+    -fx-background-color: white;
+}
+
+/* 🏷️ Titres */
+Label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #4a3822; /* Marron foncé */
+    -fx-font-weight: bold;
+}
+
+/* 🌳 Style particulier pour le bouton "Ajouter une visite" */
+#ajouterVisiteButton {
+    -fx-background-color: #4e9f50; /* Vert forêt */
+}
+#ajouterVisiteButton:hover {
+    -fx-background-color: #3c7a3e;
+}
+
+/* 📆 Style pour le bouton "Trier par date" */
+#trierParDateButton {
+    -fx-background-color: #6b8e23; /* Vert olive */
+}
+#trierParDateButton:hover {
+    -fx-background-color: #556b2f;
+}
+/* ✅ Barre de menu */
+MenuBar {
+    -fx-background-color: #6b4f2f; /* Marron foncé */
+}
+Menu {
+    -fx-text-fill: white;
+}
+Menu:hover {
+    -fx-background-color: #8b6f47; /* Marron plus clair au survol */
+}
+
+/* 📝 Texte des menus en blanc */
+.menu .label {
+    -fx-text-fill: white;
+}

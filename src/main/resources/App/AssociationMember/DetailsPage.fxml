@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="415.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationMember.DetailsController">
+   <children>
+      <TextFlow fx:id="description" prefHeight="301.0" prefWidth="415.0">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </TextFlow>
+      <JFXButton fx:id="votesButton" prefHeight="60.0" prefWidth="156.0" style="-fx-background-color: #43A047;     -fx-text-fill: white;     -fx-font-size: 14px;     -fx-font-weight: bold;     -fx-border-radius: 10px;     -fx-padding: 10px;     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 3);" text="Voter">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </JFXButton>
+   </children>
+</VBox>

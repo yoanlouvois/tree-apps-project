@@ -1,0 +1,18 @@
+[ {
+  "nom" : "Arre Assoc",
+  "budget" : 500,
+  "dons" : [ {
+    "id" : 1,
+    "montant" : 100.0,
+    "natureDonateur" : "kaka",
+    "date" : "26-01-2025"
+  } ],
+  "factures" : [ {
+    "id" : 1,
+    "montant" : 100.0,
+    "emetteur" : "kaka",
+    "beneficiaire" : "pipi",
+    "estPayee" : true,
+    "dateEmission" : "26-01-2025"
+  } ]
+} ]

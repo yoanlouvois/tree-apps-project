@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane alignment="BOTTOM_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationMember.VotesController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <HBox fx:id="topHbox" alignment="CENTER" prefHeight="100.0" prefWidth="380.0" style="-fx-background-color: #388E3C;     -fx-padding: 10px;     -fx-border-radius: 10px;     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);">
+               <children>
+                  <AnchorPane prefHeight="97.0" prefWidth="119.0">
+                     <children>
+                        <JFXHamburger fx:id="JFXHamburger" layoutY="39.0" prefHeight="20.0" prefWidth="57.0" />
+                     </children>
+                  </AnchorPane>
+                  <VBox alignment="CENTER" prefHeight="97.0" prefWidth="153.0">
+                     <children>
+                        <ImageView fx:id="logo" fitHeight="84.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="100.0" prefWidth="126.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="151.0" prefWidth="380.0">
+               <children>
+                  <Label fx:id="label" alignment="CENTER" prefHeight="76.0" prefWidth="227.0" text="Mes Votes">
+                     <HBox.margin>
+                        <Insets top="60.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <ListView fx:id="listView" prefHeight="244.0" prefWidth="380.0" styleClass="list-view" />
+         </children>
+      </VBox>
+      <VBox fx:id="vboxMenu" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="580.0" prefWidth="210.0" visible="false">
+         <children>
+            <JFXDrawer fx:id="JFXDrawer" defaultDrawerSize="210.0" prefHeight="580.0" prefWidth="210.0" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+      </VBox>
+   </children>
+</StackPane>

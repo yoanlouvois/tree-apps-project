@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@DesinscriptionMembreStyles.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationManagement.Controller.gestionMembres.ElectionPresidentController">
+   <children>
+      <VBox fx:id="vbox1" layoutY="1.0">
+         <children>
+            <MenuBar fx:id="menuBar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+               <menus>
+                  <Menu fx:id="menu1" mnemonicParsing="false" text="Autres">
+                     <items>
+                        <MenuItem fx:id="menuItem1" mnemonicParsing="false" text="Quitter" />
+                     </items>
+                  </Menu>
+                  <Menu fx:id="menu2" mnemonicParsing="false" text="Notifications">
+                     <items>
+                        <MenuItem fx:id="menuItem2" mnemonicParsing="false" text="Voir les notifications" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+      <VBox fx:id="vbox2" layoutY="27.0">
+         <children>
+            <Pane fx:id="pane1" prefHeight="47.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="retourButtonCotisations" mnemonicParsing="false" onAction="#onButtonRetourClick" text="Retour" />
+                  <Label fx:id="titreLabelCotisations" layoutX="164.0" layoutY="23.0" text="Election d'un nouveau président" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutY="80.0" prefHeight="273.0" prefWidth="300.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets top="20.0" />
+         </padding>
+         <children>
+            <TextField fx:id="nomTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="274.0" promptText="Entrez le nom d'un membre" />
+            <ListView fx:id="nomListView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="274.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="detailsContainer" layoutX="300.0" layoutY="100.0" prefHeight="227.0" prefWidth="300.0" />
+      <HBox alignment="CENTER" layoutY="345.0" prefHeight="55.0" prefWidth="600.0" spacing="410.0">
+         <children>
+            <Button fx:id="annulerButton" mnemonicParsing="false" onAction="#onButtonAnnulerClick" text="Annuler" />
+            <Button fx:id="validerButton" mnemonicParsing="false" onAction="#onButtonValiderClick" text="Elire" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</Pane>

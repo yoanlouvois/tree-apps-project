@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationManagement.Controller.finExerciceBudgetaire.AccueilFinExerciceBudgetaireController">
+   <children>
+      <VBox fx:id="vbox1" layoutY="1.0">
+         <children>
+            <MenuBar fx:id="menuBar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+               <menus>
+                  <Menu fx:id="menu1" mnemonicParsing="false" text="Autres">
+                     <items>
+                        <MenuItem fx:id="menuItem1" mnemonicParsing="false" text="Quitter" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+      <VBox fx:id="vbox2" layoutY="27.0">
+         <children>
+            <Pane fx:id="pane1" prefHeight="47.0" prefWidth="600.0">
+               <children>
+                  <Button fx:id="retourButtonCotisations" mnemonicParsing="false" onAction="#onButtonRetourClick" text="Retour" />
+                  <Label fx:id="titreLabelCotisations" layoutX="248.0" layoutY="25.0" text="Fin Exercice Budgétaire" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <HBox layoutY="74.0" prefHeight="252.0" prefWidth="600.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="326.0" prefWidth="300.0" spacing="70.0">
+               <children>
+                  <Button fx:id="revocationButton" mnemonicParsing="false" onAction="#onButtonRevocationClick" text="Révocation de membres" />
+                  <Button fx:id="listeArbresRemarquablesButton" mnemonicParsing="false" onAction="#onButtonTransmissionListeArbresRemarquablesClick" prefHeight="42.0" prefWidth="230.0" style="-fx-wrap-text: true;" text="Constitution et transmission de liste d'arbres remarquables" textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="326.0" prefWidth="301.0" spacing="70.0">
+               <children>
+                  <Button fx:id="rapportActiviteButton" mnemonicParsing="false" onAction="#onButtonRapportActiviteButtonClick" text="Générer un rapport d'activité" />
+                  <Button fx:id="demandesSubventionsDonsButton" mnemonicParsing="false" onAction="#onButtonDemandesSubventionsDonsClick" prefHeight="60.0" prefWidth="230.0" style="-fx-wrap-text: true;" text="Envoi des demandes de subventions/dons et gestion de la trésorerie" textAlignment="CENTER" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="323.0" prefHeight="78.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="finExerciceBudgetaireTotaleButton" mnemonicParsing="false" onAction="#onButtonFinExerciceBudgetaireTotaleClick" text="Faire une fin d'exercice budgétaire totale" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

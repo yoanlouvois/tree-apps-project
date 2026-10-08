@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.GreenSpaceService.TreeOptionController">
+   <children>
+      <VBox alignment="CENTER" style="-fx-border-width: 5; -fx-padding: 20;">
+         <children>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="20.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" spacing="10.0" style="-fx-background-color: rgba(46, 139, 87,0.1);">
+                     <children>
+                        <Label fx:id="idLabel" text="ID :" />
+                        <Label fx:id="nomLabel" text="Nom :" />
+                        <Label fx:id="genreLabel" text="Genre :" />
+                        <Label fx:id="especeLabel" text="Espèce :" />
+                        <Label fx:id="lieuLabel" text="Lieu :" />
+                        <Label fx:id="remarquableLabel" text="Remarquable :" />
+                        <Label fx:id="latitudeLabel" text="Latitude :" />
+                        <Label fx:id="longitudeLabel" text="Longitude :" />
+                        <Label fx:id="hauteurLabel" text="Hauteur :" />
+                        <Label fx:id="circonferenceLabel" text="Circonférence :" />
+                        <Label fx:id="developpementStageLabel" text="Stade de développement :" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" spacing="20.0">
+                     <children>
+                        <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#onDeleteButtonClick" prefHeight="100.0" prefWidth="176.0" style="-fx-background-color: rgba(246, 139, 87,0.8);" stylesheets="@styles.css" text="Supprimer l'arbre" />
+                        <Button fx:id="saveButton" mnemonicParsing="false" onAction="#onTransformToRemarkableButtonClick" prefHeight="100.0" prefWidth="173.0" style="-fx-background-color: rgba(46, 139, 87,0.8); -fx-wrap-text: true;" stylesheets="@styles.css" text="Arbre remarquable" textAlignment="CENTER" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

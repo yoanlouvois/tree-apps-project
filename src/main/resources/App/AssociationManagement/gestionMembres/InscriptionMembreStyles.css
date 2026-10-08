@@ -1,0 +1,110 @@
+/* Appliquer un fond vert clair à la fenêtre principale */
+Pane {
+    -fx-background-color: #e8f5e9;
+}
+
+/* Style de la barre de menu */
+.menu-bar {
+    -fx-background-color: #388e3c;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+/* Style des menus déroulants */
+.menu .context-menu {
+    -fx-background-color: #a5d6a7;
+}
+
+.menu-item {
+    -fx-background-color: #a5d6a7;
+    -fx-text-fill: #2e7d32;
+}
+
+.menu-item:hover {
+    -fx-background-color: #66bb6a;
+}
+
+/* Style du titre */
+#titreLabelCotisations {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b5e20;
+}
+
+/* Boutons stylisés avec tons verts */
+.button {
+    -fx-background-color: #66bb6a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #388e3c;
+}
+
+.button:pressed {
+    -fx-background-color: #1b5e20;
+}
+
+/* Style des champs de texte */
+TextField, PasswordField {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: transparent;
+    -fx-border-color: #09c509;
+    -fx-border-width: 1px;
+}
+
+/* Effet de focus sur les champs de texte */
+TextField:focused, PasswordField:focused {
+    -fx-border-color: #09c509;
+    -fx-border-width: 2px;
+}
+
+/* Date Picker */
+DatePicker {
+    -fx-border-color: #4caf50;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-background-color: transparent;
+}
+
+DatePicker .text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2e7d32;
+}
+
+DatePicker:focused {
+    -fx-border-color: #2e7d32;
+}
+
+/* Labels stylisés */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2e7d32;
+}
+
+/* Disposition des éléments */
+.vbox {
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+}
+
+.hbox {
+    -fx-spacing: 20px;
+    -fx-padding: 10px;
+}

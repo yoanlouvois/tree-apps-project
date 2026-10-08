@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationManagement.Controller.finExerciceBudgetaire.ConstitutionTransmissionListeArbresRemarquablesController">
+   <children>
+      <!-- Bouton "Retour" placé en haut à gauche -->
+      <Button fx:id="retourButtonCotisations" layoutX="10.0" layoutY="10.0" onAction="#onButtonRetourClick" prefWidth="100.0" text="Retour" />
+
+      <VBox alignment="CENTER" layoutY="50.0" spacing="10.0">
+         <children>
+            <Label fx:id="titreLabelCotisations" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Classement des arbres remarquables proposés" />
+            <ListView fx:id="listeArbresContainter" prefHeight="250.0" prefWidth="550.0" />
+            <Button fx:id="GreenServiceSubmit" prefWidth="300.0" text="Soumettre au service des espaces verts" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>

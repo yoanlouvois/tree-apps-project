@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="210.0" style="-fx-padding: 15px; -fx-border-radius: 10px;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationMember.MenuController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="151.0" prefWidth="160.0" style="-fx-padding: 10px;">
+         <children>
+            <Label fx:id="userLabel" style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2E7D32;" text="Label" textFill="#1e1d1d">
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="160.0" style="-fx-padding: 10px;">
+         <children>
+            <JFXButton fx:id="profilButton" prefHeight="75.0" prefWidth="160.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Profil">
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="160.0" style="-fx-padding: 10px;">
+         <children>
+            <JFXButton fx:id="arbreListeButton" prefHeight="42.0" prefWidth="252.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Liste des Arbres">
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" style="-fx-padding: 10px;">
+         <children>
+            <JFXButton fx:id="planificationButton" prefHeight="42.0" prefWidth="271.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Planification et Visite">
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" style="-fx-padding: 10px;">
+         <children>
+            <JFXButton fx:id="cotisationButton" prefHeight="42.0" prefWidth="303.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Cotisation">
+            </JFXButton>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0" style="-fx-padding: 10px;">
+         <children>
+            <JFXButton fx:id="votesButton" prefHeight="42.0" prefWidth="303.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Mes Votes" />
+         </children>
+      </HBox>
+      <AnchorPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="240.0" prefWidth="210.0">
+         <children>
+            <VBox alignment="BOTTOM_CENTER" layoutY="108.0" prefHeight="149.0" prefWidth="210.0">
+               <children>
+                  <JFXButton fx:id="home" alignment="CENTER" prefHeight="51.0" prefWidth="210.0" style="-fx-background-color: #66BB6A; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Home">
+                  </JFXButton>
+                  <JFXButton fx:id="logoutButton" prefHeight="86.0" prefWidth="210.0" style="-fx-background-color: #D32F2F; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 8px; -fx-padding: 10px;" text="Logout">
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,43 @@
+[ {
+  "id" : 1,
+  "montant" : 1500.0,
+  "emetteur" : "Pépinière municipale",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "15-01-2024"
+}, {
+  "id" : 2,
+  "montant" : 800.5,
+  "emetteur" : "Entreprise d'élagage",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "20-12-2023"
+}, {
+  "id" : 3,
+  "montant" : 2200.75,
+  "emetteur" : "Société d'entretien des espaces verts",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "05-11-2023"
+}, {
+  "id" : 4,
+  "montant" : 1350.25,
+  "emetteur" : "Fournisseur de matériel d'arboriculture",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "10-01-2024"
+}, {
+  "id" : 5,
+  "montant" : 950.0,
+  "emetteur" : "Service de recyclage des déchets verts",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "25-09-2023"
+}, {
+  "id" : 6,
+  "montant" : 1750.0,
+  "emetteur" : "Expert en santé des arbres",
+  "beneficiaire" : "Association Arbres & Nature",
+  "estPayee" : true,
+  "dateEmission" : "18-02-2024"
+} ]

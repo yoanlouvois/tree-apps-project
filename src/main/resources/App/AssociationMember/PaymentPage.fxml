@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:controller="App.AssociationMember.PaymentController"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+
+    <!-- Total à payer -->
+    <Label text="Total à payer :" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+    <Label fx:id="totalAmountLabel" text="0.00 €" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+    <!-- Nom sur la carte -->
+    <Label text="Nom sur la carte :" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <TextField fx:id="nameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+    <!-- Numéro de carte -->
+    <Label text="Numéro de carte :" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <TextField fx:id="cardNumberField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+    <!-- Date d'expiration -->
+    <Label text="Date d'expiration :" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="expiryDateField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+    <!-- CVV -->
+    <Label text="CVV :" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+    <TextField fx:id="cvvField" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+    <!-- Bouton Payer -->
+    <Button text="Payer" fx:id="payer" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+</GridPane>

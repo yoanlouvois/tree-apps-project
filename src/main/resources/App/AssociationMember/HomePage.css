@@ -1,0 +1,57 @@
+
+
+/* Logo */
+#logo {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+
+/* Titres des sections */
+.home-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E7D32; /* Vert foncé */
+}
+
+/* Listes de notifications et visites */
+.home-listView {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #C8E6C9; /* Vert clair */
+    -fx-border-radius: 8px;
+    -fx-padding: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 5, 0, 0, 3);
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 8px;
+    -fx-border-color: #A5D6A7;
+    -fx-padding: 5px;
+}
+
+/* Style des éléments de la liste */
+.list-cell {
+    -fx-padding: 12px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #A5D6A7;
+    -fx-font-size: 14px;
+    -fx-background-color: #FFFFFF;
+    -fx-spacing: 8px; /* Espacement entre les éléments */
+    -fx-transition: background-color 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.list-cell:filled:hover {
+    -fx-background-color: #A5D6A7;
+    -fx-text-fill: #1B5E20;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+/* Effet lorsqu'un élément est sélectionné */
+.list-cell:filled:selected {
+    -fx-background-color: #66BB6A;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+

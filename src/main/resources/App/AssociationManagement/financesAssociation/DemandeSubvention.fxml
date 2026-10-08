@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" stylesheets="@FinancesStyles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationManagement.Controller.financesAssociation.DemandeSubventionController">
+   <children>
+      <VBox fx:id="vbox1">
+         <children>
+            <MenuBar fx:id="menuBar" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+               <menus>
+                  <Menu fx:id="menu1" mnemonicParsing="false" text="Autres">
+                     <items>
+                        <MenuItem fx:id="menuItem1" mnemonicParsing="false" text="Quitter" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+      <VBox fx:id="vbox2" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <Pane fx:id="pane1" prefHeight="84.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="titreLabelDonsSubventions" layoutX="197.0" layoutY="17.0" text="Demande de subvention" />
+                  <Button fx:id="retourButton" mnemonicParsing="false" onAction="#onButtonRetourClick" text="Retour" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="221.0" prefWidth="578.0" spacing="10.0">
+         <padding>
+            <Insets left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Label text="Liste des donateurs" />
+            <ListView fx:id="donateursListView" prefHeight="158.0" prefWidth="579.0" />
+            <HBox alignment="CENTER" spacing="90.0">
+               <children>
+                  <TextField fx:id="montantTextField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="42.0" prefWidth="244.0" promptText="Entrer le montant souhaité" />
+                  <ComboBox fx:id="rapportActiviteComboBox" onAction="#onComboBoxRapportActiviteClick" prefHeight="30.0" prefWidth="244.0" promptText="Inclure un rapport d'activité" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="90.0" prefWidth="600.0" spacing="250.0">
+         <children>
+            <Button fx:id="annulerButton" mnemonicParsing="false" onAction="#onButtonAnnulerClick" prefHeight="36.0" prefWidth="168.0" text="Annuler la demande" />
+            <Button fx:id="demandeDonsSubventionsButton1" mnemonicParsing="false" onAction="#onButtonValiderClick" prefHeight="36.0" prefWidth="161.0" text="Valider la demande" />
+         </children>
+         <padding>
+            <Insets left="10.0" right="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

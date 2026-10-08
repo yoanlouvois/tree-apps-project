@@ -1,0 +1,26 @@
+[ {
+  "id" : 1,
+  "nom" : "Mairie de Paris",
+  "nature" : "Services Municipaux",
+  "date_don" : "10-01-2024"
+}, {
+  "id" : 2,
+  "nom" : "TechCorp Ltd",
+  "nature" : "Entreprise",
+  "date_don" : "15-02-2024"
+}, {
+  "id" : 3,
+  "nom" : "Association Environnement",
+  "nature" : "Association",
+  "date_don" : "05-03-2024"
+}, {
+  "id" : 4,
+  "nom" : "Jean Dupont",
+  "nature" : "Individu",
+  "date_don" : "20-04-2024"
+}, {
+  "id" : 5,
+  "nature" : "Individu",
+  "nom" : "Anonyme",
+  "date_don" : "2025-01-15"
+} ]

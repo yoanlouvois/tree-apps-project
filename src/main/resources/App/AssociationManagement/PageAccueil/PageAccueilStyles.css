@@ -1,0 +1,67 @@
+/* Fond général de la fenêtre */
+VBox {
+    -fx-background-color: #e8f5e9;
+}
+
+/* Style de l'en-tête */
+Pane {
+    -fx-background-color: #4CAF50;
+    -fx-padding: 10px;
+    -fx-border-color: #2E7D32;
+    -fx-border-width: 0 0 2px 0;
+}
+
+/* Style du label de l'en-tête */
+Label {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* Style du StackPane contenant l'image */
+StackPane {
+    -fx-background-color: #A5D6A7;
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #C49151;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #8D6E63;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #8D6E63;
+}
+
+.button:pressed {
+    -fx-background-color: #5D4037;
+}
+
+/* Ajustement des images dans les boutons */
+.button .image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 2);
+}
+
+/* Espacement et alignement du GridPane */
+GridPane {
+    -fx-hgap: 20px;
+    -fx-vgap: 20px;
+    -fx-padding: 20px;
+}
+
+/* Contrôles des colonnes et lignes du GridPane */
+.column-constraints {
+    -fx-hgrow: ALWAYS;
+}
+
+.row-constraints {
+    -fx-vgrow: ALWAYS;
+}

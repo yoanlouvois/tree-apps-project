@@ -1,0 +1,35 @@
+[ {
+  "password" : "caca",
+  "dateNaissance" : "13-11-1980",
+  "dateInscription" : "25-01-2025",
+  "cotisationsPayees" : [ ],
+  "identifiant" : "clashRoyale",
+  "adresse" : "plessis robinson",
+  "cotisationPayee" : false,
+  "visites" : [ ],
+  "nominations" : [ ],
+  "nom" : "bruno",
+  "prenom" : "lefebvre",
+  "age" : 44
+}, {
+  "identifiant" : "metropolis",
+  "cotisationPayee" : false,
+  "cotisationsPayees" : [ ],
+  "nominations" : [ ],
+  "visites" : [ ],
+  "dateInscription" : "25-01-2025"
+}, {
+  "identifiant" : "JaneDoe",
+  "radiation" : true,
+  "cotisationsPayees" : [ ],
+  "nominations" : [ ],
+  "visites" : [ ],
+  "dateInscription" : "15-05-2021"
+}, {
+  "identifiant" : "metro",
+  "cotisationPayee" : false,
+  "cotisationsPayees" : [ ],
+  "nominations" : [ ],
+  "visites" : [ ],
+  "dateInscription" : "25-01-2025"
+} ]

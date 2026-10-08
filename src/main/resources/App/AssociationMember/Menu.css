@@ -1,0 +1,37 @@
+/* Style du menu */
+VBox {
+    -fx-padding: 15px;
+    -fx-border-radius: 10px;
+}
+
+HBox {
+    -fx-padding: 10px;
+}
+
+/* Boutons du menu */
+JFXButton {
+    -fx-background-color: #66BB6A; /* Vert doux */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+}
+
+JFXButton:hover {
+    -fx-background-color: #43A047; /* Vert foncé au survol */
+}
+
+JFXButton:pressed {
+    -fx-background-color: #1B5E20; /* Vert encore plus foncé lors du clic */
+}
+
+/* Bouton Logout */
+#logoutButton {
+    -fx-background-color: #D32F2F; /* Rouge pour Logout */
+    -fx-text-fill: white;
+}
+
+#logoutButton:hover {
+    -fx-background-color: #B71C1C; /* Rouge foncé au survol */
+}

@@ -1,0 +1,125 @@
+/* Appliquer un fond vert clair à la fenêtre principale */
+Pane {
+    -fx-background-color: #e8f5e9;
+}
+
+/* Style de la barre de menu */
+.menu-bar {
+    -fx-background-color: #388e3c;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+/* Style des menus déroulants */
+.menu .context-menu {
+    -fx-background-color: #a5d6a7;
+}
+
+.menu-item {
+    -fx-background-color: #a5d6a7;
+    -fx-text-fill: #2e7d32;
+}
+
+.menu-item:hover {
+    -fx-background-color: #66bb6a;
+}
+
+/* Style du titre */
+#titreLabelCotisations {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1b5e20;
+}
+
+/* Boutons avec un design vert */
+.button {
+    -fx-background-color: #66bb6a;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #388e3c;
+}
+
+.button:pressed {
+    -fx-background-color: #1b5e20;
+}
+
+/* Labels personnalisés */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #2e7d32;
+}
+
+/* Champs de texte */
+/* Style des champs de texte */
+TextField {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: transparent;
+    -fx-border-color: #09c509;
+    -fx-border-width: 1px;
+}
+
+/* Effet de focus sur les champs de texte */
+TextField:focused {
+    -fx-border-color: #09c509;
+    -fx-border-width: 2px;
+}
+
+/* Liste déroulante */
+.list-view {
+    -fx-border-color: #4caf50;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 14px;
+}
+
+.list-view .list-cell {
+    -fx-text-fill: #1b5e20;
+    -fx-padding: 5px;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #a5d6a7;
+}
+
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #388e3c;
+    -fx-text-fill: white;
+}
+
+/* Espacement et alignement */
+.vbox {
+    -fx-spacing: 15px;
+    -fx-padding: 20px;
+}
+
+.hbox {
+    -fx-spacing: 20px;
+    -fx-padding: 10px;
+}
+
+#detailsContainer{
+    -fx-background-color: #f5f5f5;  /* Fond clair pour une meilleure lisibilité */
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-spacing: 0px; /* Espacement entre les éléments */
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}

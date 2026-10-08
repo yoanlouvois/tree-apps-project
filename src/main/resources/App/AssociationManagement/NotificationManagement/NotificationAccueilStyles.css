@@ -1,0 +1,55 @@
+/* General styles for the page */
+Pane {
+    -fx-font-family: "Arial";
+}
+
+/* Header background color */
+Pane > Label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* Button styles */
+Button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+/* Retour button specific style */
+Button#retourButton {
+    -fx-background-color: #8B4513;
+    -fx-border-color: white;
+    -fx-border-width: 1px;
+}
+
+/* TextField styles */
+TextField {
+    -fx-padding: 5px;
+    -fx-background-color: #FFF8E1;
+    -fx-border-color: #8B4513;
+    -fx-border-radius: 5;
+    -fx-font-size: 12px;
+}
+
+/* ListView styles */
+ListView {
+    -fx-background-color: #E8F5E9;
+    -fx-border-color: #8B4513;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+/* ListView item style */
+.list-cell {
+    -fx-text-fill: #4CAF50;
+    -fx-font-size: 13px;
+}
+
+/* Pane background */
+Pane {
+    -fx-background-color: #F4F4F4;
+}

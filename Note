@@ -1,0 +1,33 @@
+1️⃣ Application de gestion de l’association
+✅ Fonctionnalités :
+
+Gestion des membres : inscription, désinscription et paiement des cotisations.
+Gestion du budget : suivi des dons, subventions et paiements des factures.
+Suivi des visites d'arbres remarquables avec génération de comptes-rendus.
+Constitution et transmission de la liste des arbres remarquables.
+Génération du rapport d’activité annuel.
+Réception des notifications de plantation, abattage et classification des arbres.
+
+
+
+2️⃣ Application pour un membre de l’association
+✅ Fonctionnalités :
+
+Connexion et identification en tant que membre.
+Gestion de ses cotisations.
+Consultation de la liste des arbres remarquables.
+Vote pour les arbres candidats à la classification.
+Planification et validation de visites d’arbres remarquables.
+Consultation des visites effectuées et génération de comptes-rendus.
+
+
+
+
+3️⃣ Application pour le service des espaces verts
+✅ Fonctionnalités :
+
+Consultation des arbres sur la commune.
+Gestion des notifications pour les événements liés aux arbres.
+Réception et validation de la liste des arbres remarquables proposés par l’association.
+Consultation des comptes-rendus de visite.
+Mise à jour des statuts des arbres (plantation, abattage, classification).

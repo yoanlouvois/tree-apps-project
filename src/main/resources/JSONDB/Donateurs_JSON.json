@@ -1,0 +1,32 @@
+[
+{
+      "id": 1,
+      "nom": "Entreprise XYZ",
+      "type": "Entreprise"
+    },
+    {
+      "id": 2,
+      "nom": "Service Municipal",
+      "type": "Service Public"
+    },
+    {
+      "id": 3,
+      "nom": "Association Sportive",
+      "type": "Association"
+    },
+    {
+      "id": 4,
+      "nom": "Ministère de la Culture",
+      "type": "Service Public"
+    },
+    {
+      "id": 5,
+      "nom": "Particulier - Mme Dupont",
+      "type": "Individu"
+    },
+    {
+      "id": 6,
+      "nom": "Conseil Régional",
+      "type": "Service Public"
+    }
+  ]

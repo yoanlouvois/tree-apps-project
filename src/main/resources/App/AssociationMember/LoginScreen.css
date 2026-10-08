@@ -1,0 +1,54 @@
+/* Appliquer une couleur de fond à la scène */
+VBox {
+    -fx-background-color: #F4F4F4;
+    -fx-padding: 20px;
+    -fx-alignment: center; /* Centrer le contenu du VBox */
+}
+
+/* Style du logo */
+ImageView {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+
+/* Style du label "Login" */
+#loginLabel {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* Style des champs de texte */
+TextField, PasswordField {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: white;
+    -fx-border-color: #09c509;
+    -fx-border-width: 1px;
+}
+
+/* Effet de focus sur les champs de texte */
+TextField:focused, PasswordField:focused {
+    -fx-border-color: #09c509;
+    -fx-border-width: 2px;
+}
+
+/* Style du bouton */
+#loginButton {
+    -fx-background-color: #006400;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+}
+
+/* Effet au survol du bouton */
+#loginButton:hover {
+    -fx-background-color: #006400;
+}
+
+/* Effet de clic sur le bouton */
+#loginButton:pressed {
+    -fx-background-color: #006400;
+}

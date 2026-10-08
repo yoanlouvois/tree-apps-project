@@ -1,0 +1,81 @@
+[ {
+  "idBase" : "105896",
+  "TypeChangement" : "Proposition arbre remarquable",
+  "Arbre" : {
+    "idBase" : 105896,
+    "genre" : "Liriodendron",
+    "espece" : "tulipifera",
+    "circonference" : 75,
+    "libelle_france" : "Tulipier",
+    "hauteur" : 10,
+    "stade_de_developpement" : "Jeune (arbre)Adulte",
+    "lieu" : "PARC DE CHOISY / 1 RUE GEORGE EASTMAN",
+    "latitude" : 48.8274551278128,
+    "longitude" : 2.3597469509423687,
+    "remarquable" : "NON"
+  }
+}, {
+  "idBase" : "101294",
+  "TypeChangement" : "Proposition arbre remarquable",
+  "Arbre" : {
+    "idBase" : 101294,
+    "genre" : "Pinus",
+    "espece" : "nigra subsp. nigra",
+    "circonference" : 145,
+    "libelle_france" : "Pin",
+    "hauteur" : 10,
+    "stade_de_developpement" : "Adulte",
+    "lieu" : "PARC DE BERCY / 128 QUAI DE BERCY",
+    "latitude" : 48.83755054679797,
+    "longitude" : 2.380885130124591,
+    "remarquable" : "NON"
+  }
+}, {
+  "idBase" : "102090",
+  "TypeChangement" : "Proposition arbre remarquable",
+  "Arbre" : {
+    "idBase" : 102090,
+    "genre" : "Cedrus",
+    "espece" : "atlantica",
+    "circonference" : 280,
+    "libelle_france" : "Cèdre",
+    "hauteur" : 20,
+    "stade_de_developpement" : "Mature",
+    "lieu" : "PARC MONTSOURIS / 28 BOULEVARD JOURDAN",
+    "latitude" : 48.821445062112915,
+    "longitude" : 2.340734265833792,
+    "remarquable" : "NON"
+  }
+}, {
+  "idBase" : "99874",
+  "TypeChangement" : "Proposition arbre remarquable",
+  "Arbre" : {
+    "idBase" : 99874,
+    "genre" : "Aesculus",
+    "espece" : "hippocastanum",
+    "circonference" : 250,
+    "libelle_france" : "Marronnier",
+    "hauteur" : 22,
+    "stade_de_developpement" : "Mature",
+    "lieu" : "JARDIN DE LA MAIRIE DU VIIEME / 116 RUE DE GRENELLE",
+    "latitude" : 48.85763363167391,
+    "longitude" : 2.320982125256987,
+    "remarquable" : "OUI"
+  }
+}, {
+  "idBase" : "99875",
+  "TypeChangement" : "Proposition arbre remarquable",
+  "Arbre" : {
+    "idBase" : 99875,
+    "genre" : "Taxus",
+    "espece" : "baccata",
+    "circonference" : 80,
+    "libelle_france" : "If",
+    "hauteur" : 10,
+    "stade_de_developpement" : "Adulte",
+    "lieu" : "JARDIN DE LA MAIRIE DU VIIEME / 116 RUE DE GRENELLE",
+    "latitude" : 48.85766060320649,
+    "longitude" : 2.3210943354556894,
+    "remarquable" : "NON"
+  }
+} ]

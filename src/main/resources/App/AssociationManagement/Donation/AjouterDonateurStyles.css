@@ -1,0 +1,59 @@
+/* 🌿 Style général */
+Pane {
+    -fx-background-color: #f5f1e3; /* Beige clair pour une meilleure lisibilité */
+}
+
+/* ✅ Barre de menu */
+MenuBar {
+    -fx-background-color: #4e3b2c; /* Marron foncé */
+}
+
+.menu .label {
+    -fx-text-fill: white;
+}
+
+/* 🌱 Bouton Retour */
+#retourButton {
+    -fx-background-color: #8b5a2b; /* Marron doux */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+}
+
+#retourButton:hover {
+    -fx-background-color: #a36a3d;
+}
+
+/* 📌 Labels */
+Label {
+    -fx-text-fill: #3e523a; /* Vert foncé */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* 🌳 TextField & ComboBox */
+TextField, ComboBox {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #6a4f2f;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+/* 📅 DatePicker */
+#dateDonPicker {
+    -fx-background-color: white;
+    -fx-border-color: #3e523a; /* Vert foncé */
+}
+
+/* 🆕 Bouton Ajouter */
+#ajouterButton {
+    -fx-background-color: #3e523a; /* Vert foncé */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+}
+
+#ajouterButton:hover {
+    -fx-background-color: #507d4a; /* Vert plus clair */
+}

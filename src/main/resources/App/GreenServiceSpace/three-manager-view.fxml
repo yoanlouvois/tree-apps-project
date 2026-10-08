@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.GreenSpaceService.TreeManagerController">
+   <children>
+      <!-- Image de fond -->
+      <ImageView fx:id="image1" fitHeight="683.0" fitWidth="1003.0" pickOnBounds="true">
+         <image>
+            <Image url="@11n9jkal.png" />
+         </image>
+      </ImageView>
+      <VBox>
+         <children>
+
+            <!-- Contenu principal -->
+            <VBox alignment="CENTER" prefHeight="550.0" prefWidth="1003.0" spacing="50.0">
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+               <HBox>
+                  <children>
+
+                     <!-- Bouton additionnel (ajouté en haut à gauche) -->
+                     <Button mnemonicParsing="false" onAction="#OnButtonReturnClickArbre" prefHeight="53.0" prefWidth="105.0" text="Retour" />
+                  </children>
+               </HBox>
+
+               <!-- Label principal -->
+               <Label alignment="CENTER" styleClass="header-label" text="Que voulez-vous faire ?" />
+
+               <!-- Boutons principaux -->
+               <Button id="buttonArbreList" contentDisplay="TOP" onAction="#OnButtonThreeListClick" prefHeight="132.0" prefWidth="240.0" text="Liste des arbres">
+                  <graphic>
+                     <ImageView fitHeight="94.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@570170-removebg-preview.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+               <Button id="buttonArbrePlanter" contentDisplay="TOP" mnemonicParsing="false" onAction="#OnButtonNewTreeClick" prefHeight="132.0" prefWidth="240.0" text="Enregistrer un nouvel arbre">
+                  <graphic>
+                     <ImageView fitHeight="94.0" fitWidth="116.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                           <Image url="@5232043-removebg-preview.png" />
+                        </image>
+                     </ImageView>
+                  </graphic>
+               </Button>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</StackPane>

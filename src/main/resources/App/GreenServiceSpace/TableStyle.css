@@ -1,0 +1,32 @@
+/* Style pour l'arrière-plan des en-têtes de colonnes */
+.table-view .column-header-background {
+    -fx-background-color: transparent; /* Conserve la transparence */
+}
+
+/* Style pour le texte dans les en-têtes */
+.table-view .column-header .label {
+    -fx-text-fill: black; /* Texte noir */
+    -fx-font-size: 12px; /* Taille de la police */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+
+/* Empêche les colonnes de changer de couleur lorsqu'elles sont cliquées */
+.table-view .column-header:focused {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/* Exemple de styles CSS */
+.gridpane-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2e8b57; /* Vert forêt */
+}
+
+.gridpane-textfield {
+    -fx-background-color: #f5f5f5; /* Gris clair */
+    -fx-border-color: #2e8b57; /* Bordure verte */
+    -fx-border-radius: 5px; /* Coins arrondis */
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}

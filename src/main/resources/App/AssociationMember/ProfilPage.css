@@ -1,0 +1,19 @@
+
+
+/* Logo */
+#logo {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+
+/* Titres des sections */
+.profil-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E7D32; /* Vert foncé */
+}
+/* Labels des champs */
+.profil-label {
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+    -fx-text-fill: #1B5E20; /* Vert profond */
+}

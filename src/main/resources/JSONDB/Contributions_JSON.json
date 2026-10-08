@@ -1,0 +1,47 @@
+[
+  {
+      "type": "Don",
+      "id": 1,
+      "montant": 500.0,
+      "natureDonateur": "Entreprise XYZ",
+      "date": "15-01-2025"
+    },
+    {
+      "type": "Subvention",
+      "id": 2,
+      "montant": 1000.0,
+      "natureDonateur": "Service Municipal",
+      "date": "10-12-2024",
+      "rapportActivite": "rapport_2024.pdf"
+    },
+    {
+      "type": "Don",
+      "id": 3,
+      "montant": 200.0,
+      "natureDonateur": "Association Sportive",
+      "date": "20-02-2025"
+    },
+    {
+      "type": "Subvention",
+      "id": 4,
+      "montant": 5000.0,
+      "natureDonateur": "Ministère de la Culture",
+      "date": "05-11-2024",
+      "rapportActivite": "rapport_2023.pdf"
+    },
+    {
+      "type": "Don",
+      "id": 5,
+      "montant": 150.0,
+      "natureDonateur": "Particulier - Mme Dupont",
+      "date": "30-09-2024"
+    },
+    {
+      "type": "Subvention",
+      "id": 6,
+      "montant": 3000.0,
+      "natureDonateur": "Conseil Régional",
+      "date": "01-07-2024",
+      "rapportActivite": "rapport_2023.pdf"
+    }
+]

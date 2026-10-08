@@ -1,0 +1,63 @@
+[ {
+  "id" : 1,
+  "cout" : 50.0,
+  "tree" : {
+    "idBase" : 99878,
+    "libelle_france" : "Arbre à miel",
+    "lieu" : "PARC CLICHY BATIGNOLLES MARTIN LUTHER KING / 147 RUE CARDINET"
+  },
+  "member" : null,
+  "visiteDefrayee" : true,
+  "date" : "16-03-2025",
+  "compte_rendu" : ""
+}, {
+  "id" : 2,
+  "cout" : 150.0,
+  "tree" : {
+    "idBase" : 99881,
+    "libelle_france" : "Platane",
+    "lieu" : "SQUARE ALEXANDRE ET RENE PARODI / 1 PLACE DE LA PORTE MAILLOT"
+  },
+  "member" : {
+    "nom" : "Doe",
+    "prenom" : "Jane",
+    "age" : 22,
+    "adresse" : "balec",
+    "dateNaissance" : "25-08-1999",
+    "identifiant" : "JaneDoe",
+    "password" : "password456",
+    "cotisationPayee" : false,
+    "cotisationsPayees" : [ ],
+    "nominations" : [ ],
+    "visites" : [ ],
+    "dateInscription" : "15-05-2021"
+  },
+  "visiteDefrayee" : false,
+  "date" : "16-05-2025",
+  "compte_rendu" : ""
+}, {
+  "id" : 3,
+  "cout" : 100.0,
+  "tree" : {
+    "idBase" : 99882,
+    "libelle_france" : "Sophora",
+    "lieu" : "JARDIN DE L AVENUE FOCH / 10 AVENUE FOCH"
+  },
+  "member" : {
+    "nom" : "Doe",
+    "prenom" : "John",
+    "age" : 25,
+    "adresse" : "balec",
+    "dateNaissance" : "15-05-1996",
+    "identifiant" : "johnDoe",
+    "password" : "password123",
+    "cotisationPayee" : false,
+    "cotisationsPayees" : [ ],
+    "nominations" : [ ],
+    "visites" : [ ],
+    "dateInscription" : "15-05-2021"
+  },
+  "visiteDefrayee" : false,
+  "date" : "17-05-2025",
+  "compte_rendu" : ""
+} ]

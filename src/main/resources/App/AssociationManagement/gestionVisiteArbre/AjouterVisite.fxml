@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@VoirListeVisitesStyles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationManagement.Controller.gestionVisiteArbre.AjouterVisiteController">
+   <children>
+      <Pane prefHeight="63.0" prefWidth="600.0">
+         <children>
+            <MenuBar layoutY="2.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="26.0" prefWidth="600.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Autre">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button fx:id="Retour" layoutY="28.0" mnemonicParsing="false" onAction="#onButtonRetourClick" text="Retour" />
+         </children>
+      </Pane>
+      <Pane layoutY="61.0" prefHeight="339.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="254.0" layoutY="14.0" text="Ajout d'une visite" />
+            <TextField fx:id="nomArbreTextField" layoutX="105.0" layoutY="66.0" promptText="Nom de l'arbre" />
+            <TextField fx:id="lieuTextField" layoutX="105.0" layoutY="116.0" promptText="Lieu" />
+            <DatePicker fx:id="dateVisitePicker" layoutX="346.0" layoutY="66.0" prefHeight="25.0" prefWidth="149.0" />
+            <TextField fx:id="coutTextField" layoutX="346.0" layoutY="116.0" promptText="Cout" />
+            <Button fx:id="Ajouter" layoutX="274.0" layoutY="249.0" mnemonicParsing="false" onAction="#onButtonAjouterClick" text="Ajouter" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

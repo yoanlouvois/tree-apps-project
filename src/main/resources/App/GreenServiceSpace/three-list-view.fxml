@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.GreenSpaceService.TreeListController">
+    <children>
+        <ImageView fitHeight="683.0" fitWidth="1003.0" pickOnBounds="true">
+            <image>
+                <Image url="@11n9jkal.png" />
+            </image>
+        </ImageView>
+      <HBox spacing="20.0">
+         <children>
+            <VBox spacing="30.0">
+               <children>
+                      <Button id="returnButton1" mnemonicParsing="false" onAction="#OnActionButtonClicked5" prefHeight="55.0" prefWidth="123.0" stylesheets="@styles.css" text="Retour" />
+                  <ComboBox fx:id="filterComboBox" prefWidth="150.0" promptText="filtres" />
+                  <TextField fx:id="textFiltrerCirconference" promptText="ex : 10 (en cm)" visible="false" />
+               </children>
+            </VBox>
+                <TableView fx:id="treeTableView" stylesheets="@TableStyle.css">
+                    <columns>
+                        <TableColumn fx:id="colId" prefWidth="60.000001311302185" styleClass="column-header" text="ID" />
+                        <TableColumn fx:id="colNom" prefWidth="74.66667556762695" styleClass="column-header" text="Nom" />
+                        <TableColumn fx:id="colGenre" prefWidth="91.33334350585938" styleClass="column-header" text="Genre" />
+                        <TableColumn fx:id="colEspece" prefWidth="114.00004577636719" styleClass="column-header" text="Espèce" />
+                        <TableColumn fx:id="colLieu" prefWidth="184.6666259765625" styleClass="column-header" text="Lieu" />
+                        <TableColumn fx:id="colActions" prefWidth="74.66668701171875" styleClass="column-header" text="Actions" />
+                    </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+                </TableView>
+         </children>
+         <StackPane.margin>
+            <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+         </StackPane.margin>
+      </HBox>
+    </children>
+</StackPane>

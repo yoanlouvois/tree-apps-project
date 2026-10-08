@@ -1,0 +1,46 @@
+#afficherButton{
+    -fx-background-color: #43A047;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 5, 0, 0, 3);
+}
+
+/* Style général du filtre */
+VBox {
+    -fx-background-color: #ffffff;
+}
+
+/* Titres des sections */
+Label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2E7D32; /* Vert foncé */
+}
+
+/* Boutons Toggle (Filtres et Tri) */
+ToggleButton {
+    -fx-background-color: #C8E6C9; /* Vert doux */
+    -fx-border-radius: 8px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #2E7D32; /* Texte vert foncé */
+    -fx-border-color: #A5D6A7;
+    -fx-border-width: 1px;
+}
+
+ToggleButton:selected {
+    -fx-background-color: #388E3C; /* Vert plus foncé lorsqu'activé */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+ToggleButton:hover {
+    -fx-background-color: #66BB6A; /* Vert plus foncé au survol */
+    -fx-text-fill: white;
+}
+
+#afficherButton:hover {
+    -fx-background-color: #2E7D32; /* Vert encore plus foncé au survol */
+}
