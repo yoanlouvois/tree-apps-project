@@ -14,74 +14,74 @@
 <?import javafx.scene.text.Font?>
 
 <StackPane  alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="App.AssociationMember.HomePageController">
-   <children>
-      <VBox prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <HBox fx:id="topHbox" alignment="CENTER" prefHeight="100.0" prefWidth="380.0" style="-fx-background-color: #388E3C;
+    <children>
+        <VBox prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <HBox fx:id="topHbox" alignment="CENTER" prefHeight="100.0" prefWidth="380.0" style="-fx-background-color: #388E3C;
     -fx-padding: 10px;
     -fx-border-radius: 10px;
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 5);">
-               <children>
-                  <AnchorPane prefHeight="97.0" prefWidth="119.0">
-                     <children>
-                        <JFXHamburger fx:id="JFXHamburger" layoutY="39.0" prefHeight="20.0" prefWidth="57.0" />
-                     </children>
-                  </AnchorPane>
-                  <VBox alignment="CENTER" prefHeight="97.0" prefWidth="153.0">
-                     <children>
-                        <ImageView fx:id="logo" fitHeight="84.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@logo.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </VBox>
-                  <VBox prefHeight="100.0" prefWidth="126.0" />
-               </children>
-            </HBox>
-            <HBox alignment="TOP_CENTER" prefHeight="117.0" prefWidth="380.0">
-               <children>
-                  <Label styleClass="home-label" text="Notification">
-                     <HBox.margin>
-                        <Insets top="60.0" />
-                     </HBox.margin>
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Label>
-               </children>
-               <VBox.margin>
-                  <Insets />
-               </VBox.margin></HBox>
-            <HBox prefHeight="156.0" prefWidth="380.0">
-               <children>
-                  <ListView styleClass="home-listView" fx:id="listViewNotif" prefHeight="123.0" prefWidth="320.0" />
-               </children>
-               <VBox.margin>
-                  <Insets left="30.0" right="30.0" />
-               </VBox.margin></HBox>
-            <HBox alignment="CENTER" prefHeight="87.0" prefWidth="380.0">
-               <children>
-                  <Label styleClass="home-label" text="Mes visites à venir">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Label>
-               </children></HBox>
-            <HBox prefHeight="156.0" prefWidth="380.0">
-               <children>
-                  <ListView styleClass="list-view" fx:id="listViewVisites" prefHeight="123.0" prefWidth="320.0" />
-               </children>
-               <padding>
-                  <Insets left="30.0" right="30.0" />
-               </padding>
-            </HBox>
-         </children>
-      </VBox>
-      <VBox fx:id="vboxMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="210.0" StackPane.alignment="BOTTOM_LEFT">
-         <children>
-            <JFXDrawer fx:id="JFXDrawer" defaultDrawerSize="210.0" prefHeight="580.0" prefWidth="210.0" />
-         </children>
-      </VBox>
-   </children>
+                    <children>
+                        <AnchorPane prefHeight="97.0" prefWidth="119.0">
+                            <children>
+                                <JFXHamburger fx:id="JFXHamburger" layoutY="39.0" prefHeight="20.0" prefWidth="57.0" />
+                            </children>
+                        </AnchorPane>
+                        <VBox alignment="CENTER" prefHeight="97.0" prefWidth="153.0">
+                            <children>
+                                <ImageView fx:id="logo" fitHeight="84.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@logo.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="100.0" prefWidth="126.0" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="117.0" prefWidth="380.0">
+                    <children>
+                        <Label styleClass="home-label" text="Notification">
+                            <HBox.margin>
+                                <Insets top="60.0" />
+                            </HBox.margin>
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                    </children>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin></HBox>
+                <HBox prefHeight="156.0" prefWidth="380.0">
+                    <children>
+                        <ListView styleClass="home-listView" fx:id="listViewNotif" prefHeight="123.0" prefWidth="320.0" />
+                    </children>
+                    <VBox.margin>
+                        <Insets left="30.0" right="30.0" />
+                    </VBox.margin></HBox>
+                <HBox alignment="CENTER" prefHeight="87.0" prefWidth="380.0">
+                    <children>
+                        <Label styleClass="home-label" text="Mes visites à venir">
+                            <font>
+                                <Font size="24.0" />
+                            </font>
+                        </Label>
+                    </children></HBox>
+                <HBox prefHeight="156.0" prefWidth="380.0">
+                    <children>
+                        <ListView styleClass="list-view" fx:id="listViewVisites" prefHeight="123.0" prefWidth="320.0" />
+                    </children>
+                    <padding>
+                        <Insets left="30.0" right="30.0" />
+                    </padding>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox fx:id="vboxMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="210.0" StackPane.alignment="BOTTOM_LEFT">
+            <children>
+                <JFXDrawer fx:id="JFXDrawer" defaultDrawerSize="210.0" prefHeight="580.0" prefWidth="210.0" />
+            </children>
+        </VBox>
+    </children>
 </StackPane>
